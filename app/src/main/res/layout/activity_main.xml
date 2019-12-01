@@ -1,0 +1,30 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:id="@+id/firstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99235f"
+        android:text="First Fragment"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"/>
+    <Button
+        android:id="@+id/secondFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99235f"
+        android:text="Second Fragment"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>
